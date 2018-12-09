@@ -77,6 +77,7 @@ a,h1,h2,p{
      color: rgb(230, 230, 230);
      margin: 4rem 20rem;
 }
+
 .download {
       text-align: center;
     color: #eee;
@@ -120,3 +121,41 @@ a,h1,h2,p{
     float: left;
 }
 
+@media only screen and (max-width: 76.8rem) {
+        .documentation ul{
+     margin: 2rem;
+        }
+    }
+    @media only screen and (max-width: 56.5rem) {
+        html{
+            font-size: 60%;
+        }
+        .container{
+            width: 100%;
+        }
+        .documentation{
+            margin-bottom: 3rem;
+        }
+        .documentation ol{
+            margin: 0;
+        }
+        
+        .main{
+            margin-top: 17rem;
+             margin-bottom: 10rem;
+            font-size: 3rem;
+        }
+        .center{
+            text-align: center;
+        }
+        .footer__about{
+            float: none;
+        }
+        .header__nav{
+            float: none;
+            font-size: 3rem;
+        }
+        .header__logo{
+             margin-bottom: 0;
+        }
+    }
